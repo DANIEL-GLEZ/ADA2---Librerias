@@ -67,12 +67,12 @@ def ordenamientos():
             print(f"La Lista ha sido ordenada con Shellsort: {lista_ordenada}")
 
         elif opcion == "6":
-            lista_ordenada = radix_sort(lista.copy())
+            lista_ordenada = radixsort(lista.copy())
             print(f"La Lista ha sido ordenada con Radix Sort: {lista_ordenada}")
 
         elif opcion == "7":
             lista_ordenada = lista.copy()
-            heap_sort(lista_ordenada)
+            heapsort(lista_ordenada)
             print(f"La Lista ha sido ordenada con Heap Sort: {lista_ordenada}")
 
         elif opcion == "8":
